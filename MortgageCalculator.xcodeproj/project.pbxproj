@@ -14,7 +14,7 @@
 		63DA733718F84B8600B5F2CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA733618F84B8600B5F2CA /* main.m */; };
 		63DA733B18F84B8600B5F2CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA733A18F84B8600B5F2CA /* AppDelegate.m */; };
 		63DA733E18F84B8600B5F2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DA733C18F84B8600B5F2CA /* Main.storyboard */; };
-		63DA734118F84B8600B5F2CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA734018F84B8600B5F2CA /* ViewController.m */; };
+		63DA734118F84B8600B5F2CA /* MortgageCalculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA734018F84B8600B5F2CA /* MortgageCalculatorController.m */; };
 		63DA734318F84B8600B5F2CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DA734218F84B8600B5F2CA /* Images.xcassets */; };
 		63DA734A18F84B8600B5F2CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DA734918F84B8600B5F2CA /* XCTest.framework */; };
 		63DA734B18F84B8600B5F2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DA732A18F84B8500B5F2CA /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		63DA733918F84B8600B5F2CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63DA733A18F84B8600B5F2CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63DA733D18F84B8600B5F2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63DA733F18F84B8600B5F2CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63DA734018F84B8600B5F2CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63DA733F18F84B8600B5F2CA /* MortgageCalculatorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MortgageCalculatorController.h; sourceTree = "<group>"; };
+		63DA734018F84B8600B5F2CA /* MortgageCalculatorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MortgageCalculatorController.m; sourceTree = "<group>"; };
 		63DA734218F84B8600B5F2CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63DA734818F84B8600B5F2CA /* MortgageCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortgageCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DA734918F84B8600B5F2CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				63DA733918F84B8600B5F2CA /* AppDelegate.h */,
 				63DA733A18F84B8600B5F2CA /* AppDelegate.m */,
 				63DA733C18F84B8600B5F2CA /* Main.storyboard */,
-				63DA733F18F84B8600B5F2CA /* ViewController.h */,
-				63DA734018F84B8600B5F2CA /* ViewController.m */,
+				63DA733F18F84B8600B5F2CA /* MortgageCalculatorController.h */,
+				63DA734018F84B8600B5F2CA /* MortgageCalculatorController.m */,
 				63DA734218F84B8600B5F2CA /* Images.xcassets */,
 				63DA733118F84B8600B5F2CA /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DA734118F84B8600B5F2CA /* ViewController.m in Sources */,
+				63DA734118F84B8600B5F2CA /* MortgageCalculatorController.m in Sources */,
 				63DA733B18F84B8600B5F2CA /* AppDelegate.m in Sources */,
 				63DA733718F84B8600B5F2CA /* main.m in Sources */,
 			);
@@ -460,6 +460,7 @@
 				63DA735B18F84B8600B5F2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63DA735C18F84B8600B5F2CA /* Build configuration list for PBXNativeTarget "MortgageCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				63DA735E18F84B8600B5F2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
